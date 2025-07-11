@@ -32,6 +32,15 @@ nav ul li {
   gap: 10;
   border-radius: 10px;
 }
+.btn-primary:hover{
+  font-weight: bolder;
+  background-color: #47ff75;
+    color: #8189ff;
+  font-size: 16px;
+  padding: 20px;
+  gap: 10;
+  border-radius: 10px;
+}
 .text-primary{
   color: #4E47FF;
 }
@@ -194,11 +203,13 @@ padding: 10px 20px;
     height: 40px;
     font-size: 24px;
     padding: 10px;
+    border-radius: 10px;
 }
 textarea{
   width: 100%;
     font-size: 24px;
     padding: 10px;
+    border-radius: 10px;
 }
 .buttons{
   padding: 20px;
@@ -206,7 +217,37 @@ textarea{
     font-size: 16px;
     background-color: #4E47FF;
     color: #E3E5FF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.buttons:hover{
+  padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #47ff75;
+    color: #8189ff;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 h5{
   font-size: 18px;
+}
+
+.develop-title{
+font-size: 100px;
+color: #4E47FF;
+}
+
+.footer-bottom{
+  text-align: center;
+  margin-top: 8%;
+}
+
+.footer-menus{
+  display: flex;
+    gap: 40px;
+    margin: 15px 43%;
+}
+h1{
+  margin: 30px 10px;
 }
