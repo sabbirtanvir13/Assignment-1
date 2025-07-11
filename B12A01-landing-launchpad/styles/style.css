@@ -169,7 +169,44 @@ font-weight: bold;
   border-radius: 48px;
   gap: 20px;
 }
-.footer-title{
-  font-size: 50px;
+.tb-action{
+  font-size: 97px;
   font-weight: bold;
+  margin-top: 50%;
+}
+/* footer-styles */
+footer{
+  display: flex;
+    gap: 100px;
+    margin: 50px 20%;
+    justify-content: space-around;
+}
+footer input[type="text"] footer input[type="email"]{
+height: 64px;
+border-radius: 5px;
+width: 100%;
+padding: 10px 20px;
+
+}
+
+.inputs{
+  width: 100%;
+    height: 40px;
+    font-size: 24px;
+    padding: 10px;
+}
+textarea{
+  width: 100%;
+    font-size: 24px;
+    padding: 10px;
+}
+.buttons{
+  padding: 20px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: #E3E5FF;
+}
+h5{
+  font-size: 18px;
 }
