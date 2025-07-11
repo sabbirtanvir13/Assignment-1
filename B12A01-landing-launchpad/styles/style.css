@@ -1,0 +1,151 @@
+
+body{
+  background-color: #F5F8FF;
+}
+.inter-custom {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* or 300, 500, 700, etc. */
+  font-style: normal;
+}
+
+nav{
+ display: flex; 
+ justify-content: space-between;
+ align-items: center;
+ margin: 50px 200px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 34px;
+}
+nav ul li {
+
+  list-style: none;
+}
+.btn-primary{
+  background-color: #4E47FF;
+  font-weight: bolder;
+  color:whitesmoke ;
+  font-size: 16px;
+  padding: 20px;
+  gap: 10;
+  border-radius: 10px;
+}
+.text-primary{
+  color: #4E47FF;
+}
+.banner-title{
+weight: 905px; 
+height: 152px;
+color: #252432;
+ font-size: 65px;
+ 
+}
+.banner{
+  gap: 158;
+  text-align: center;
+  padding-top: 158px;
+}
+header{
+  background-image: url(../Assets/Hero-bg.png);
+
+  
+}
+.section-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+
+}
+.section-description2{
+  font-size: 24px;
+  color: #252432;
+}
+.section-description{
+  font-size: 16px;
+  font-weight: bold;
+}
+.banner-description{
+  font-size: 24px;
+  font-weight: normal;
+  color: #252432;
+  margin-bottom: 15px;
+}
+.banner-img{
+  width: 403px;
+  border-radius: 48px;
+  border: none;
+  
+}
+.img-container{
+  padding-bottom: 23px;
+
+
+}
+
+.img-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+.normal-title{
+  font-size:38px ;
+  color:#252432 ;
+  
+}
+
+.about{
+padding: 130px 150px;
+  text-align: center;
+  background-color: #E3E5FF;
+  max-width: 1140px;
+border-radius: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 20%;
+}
+.item-title{
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+}
+.about-itams{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.skill-title{
+  font-size: 42px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+}
+.skill-container{
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 24px;
+    gap: 24px;
+    opacity: 100%;
+    border-radius: 14px;
+    width: 366.66px;
+}
+
+.photo-name{
+  display: flex;
+}
+.img-resize{
+  padding-right: 30px;
+  margin-right: 30px;
+  border-radius: 25px;
+}
+.main-container{
+  display: flex;
+  margin: 50px 26%;
+  justify-content: space-around;
+}
+
